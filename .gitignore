@@ -1,0 +1,40 @@
+# data
+data/
+*.fastq
+*.fastq.gz
+*.fast5
+*.pod5
+*.bam
+*.sam
+
+# build artifacts
+build/
+dist/
+target/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# rust
+babbage_hmm/target/
+
+# editor / OS
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# environment
+.env
+.venv/
+env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
